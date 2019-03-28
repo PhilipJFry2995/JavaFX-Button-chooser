@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import denysjfry.buttonchooser.controllers.ButtonFileChooser?>
+<?import denysjfry.buttonchooser.controllers.ButtonFolderChooser?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="denysjfry.main.MainController"
+      prefHeight="400.0" prefWidth="600.0">
+    <ButtonFileChooser fx:id="fileChooser" />
+    <ButtonFolderChooser fx:id="folderChooser" />
+</VBox>
