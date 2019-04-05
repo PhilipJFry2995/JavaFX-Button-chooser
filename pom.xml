@@ -4,20 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>denysjfry</groupId>
+    <groupId>io.github.philipjfry2995</groupId>
     <artifactId>chooser_field</artifactId>
     <version>0.1</version>
+    <packaging>jar</packaging>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>8</source>
-                    <target>8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+    <name>JavaFX button chooser</name>
+    <description>Combination of text field and button for JavaFX to easily create file or folder selection module</description>
+    <url>https://github.com/PhilipJFry2995/JavaFX-Button-chooser</url>
+
+    <licenses>
+        <license>
+            <name>Do What The Fuck You Want To Public License</name>
+            <url>http://www.wtfpl.net</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 </project>
